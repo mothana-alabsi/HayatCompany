@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayat Jordan Fruits & Vegetables Supplies</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-2">
+                <div class="d-flex gap-4">
+                    <a href="tel:+96262020611" class="top-link">
+                        <i class="fas fa-phone me-2"></i>
+                        <span class="contact-text" dir="ltr">+962 6 202 0611</span>
+                    </a>
+                    <a href="mailto:hayat.jordan@hdl-jo.com" class="top-link d-none d-md-flex">
+                        <i class="fas fa-envelope me-2"></i>
+                        <span class="contact-text">hayat.jordan@hdl-jo.com</span>
+                    </a>
+                </div>
+                <div class="certification-badge">
+                    <i class="fas fa-award me-2"></i>
+                    <span data-en="Global GAP Certified" data-ar="معتمد من جلوبال جاب">Global GAP Certified</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <div class="logo-icon">
+                    <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6966813165a5f8d2534d93bc/ae85427ad_logoVC.jpeg" alt="Hayat Jordan Logo" class="logo-img">
+                </div>
+                <div class="brand-text">
+                    <span class="brand-name" data-en="Hayat Jordan" data-ar="حياة الأردن">Hayat Jordan</span>
+                    <span class="brand-subtitle" data-en="Fruits & Vegetables" data-ar="لتوريد الفواكه والخضراوات">Fruits & Vegetables Supplies</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto navbarCustom align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-en="About Us" data-ar="من نحن">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mission" data-en="Our Mission" data-ar="مهمتنا">Our Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products" data-en="Products" data-ar="منتجاتنا">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <button class="btn btn-lang" id="langToggle">
+                            <i class="fas fa-globe me-2"></i>
+                            <span data-en="العربية" data-ar="English">العربية</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <!-- Slide 1 - Global GAP Certificate -->
+        <div class="hero-slide active">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-bg-image" style="background-image: url('https://images.unsplash.com/photo-1586829135343-132950070391?w=1920&q=80');"></div>
+            <div class="certificate-showcase">
+                <div class="certificate-card">
+                    <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6966813165a5f8d2534d93bc/ad4d6e510_global_gab.png" alt="Global GAP Certificate" class="certificate-img">
+                    <div class="certificate-seal">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slide 2 - Our Farms -->
+        <div class="hero-slide">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-bg-image" style="background-image: url('https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?w=1920&q=80');"></div>
+        </div>
+        
+        <!-- Slide 3 - Products -->
+        <div class="hero-slide">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-bg-image" style="background-image: url('https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1920&q=80');"></div>
+        </div>
+
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-7">
+                    <div class="hero-content text-white">
+                        <div class="hero-badge mb-4">
+                            <i class="fas fa-award me-2"></i>
+                            <span data-en="Premium Quality Since 1997" data-ar="جودة فاخرة منذ ١٩٩٧">Premium Quality Since 1997</span>
+                        </div>
+                        <h1 class="hero-title mb-4">
+                            <span data-en="From Jordan's Finest Farms" data-ar="من أجود مزارع الأردن">From Jordan's Finest Farms</span>
+                            <br>
+                            <span data-en="To Your Table" data-ar="إلى طاولتك">To Your Table</span>
+                        </h1>
+                        <p class="hero-subtitle mb-5" data-en="Delivering the highest quality fruits and vegetables across Jordan and the Middle East with Global GAP certification." data-ar="نقدم أعلى جودة من الفواكه والخضروات في الأردن والشرق الأوسط بشهادة جلوبال جاب.">
+                            Delivering the highest quality fruits and vegetables across Jordan and the Middle East with Global GAP certification.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#products" class="btn btn-primary-custom me-3" data-en="Our Products" data-ar="منتجاتنا">Our Products</a>
+                            <a href="#about" class="btn btn-outline-light-custom" data-en="Learn More" data-ar="اعرف المزيد">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-arrow left" onclick="changeSlide(-1)">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="hero-arrow right" onclick="changeSlide(1)">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+
+        <div class="hero-indicators">
+            <span class="indicator active" onclick="currentSlide(0)"></span>
+            <span class="indicator" onclick="currentSlide(1)"></span>
+            <span class="indicator" onclick="currentSlide(2)"></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-success-soft mb-3" data-en="About Us" data-ar="من نحن">About Us</span>
+                <h2 class="display-5 fw-bold mb-4" data-en="A Legacy of Excellence Since 1997" data-ar="إرث من التميز منذ ١٩٩٧">A Legacy of Excellence Since 1997</h2>
+            </div>
+            
+            <div class="row align-items-center g-5 mb-5">
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=600&q=80" alt="About" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p class="lead about-text-en">
+                            Since its inception in 1997, Hayat Jordan has been providing the highest quality Fruit & Vegetable Supplies with the sole objective of becoming one of the largest food supply companies in the region.
+                        </p>
+                        <p class="about-text-en">
+                            Our work and daily perseverance stems from our understanding of the importance of our role as one of the key supply chains of vegetables and fruits in the Hashemite Kingdom of Jordan and the Middle East, which always keeps us maintaining the quality of our product through profound attention to quality and eye-catching products and continuous upkeep of packing and storage.
+                        </p>
+                        <p class="about-text-en">
+                            Additionally, our company is distinguished by a highly-skilled team that possesses unique long-term expertise supported by extensive studies of the markets we serve and the needs of vegetables and fruit and after-sales services, which enhances our position and places us amongst the top trusted contacts to our customers and partners in the Kingdom and other countries.
+                        </p>
+                        <p class="about-text-en">
+                            The client base of Hayat Jordan is a source of pride for us and includes major shopping centers such as supermarkets and hypermarkets as well as restaurants, hotels, hospitals, centers, government entities amongst many others, which have been dealing with us for years in order to provide everything that serves the interest and health of the consumer.
+                        </p>
+                        
+                        <!-- Arabic Text -->
+                        <p class="lead about-text-ar" style="display: none;">
+                            منذ تأسيسها في العام 1997، دأبت شركة حياة الأردن لتوريدات الخضار والفواكه على تقديم أعلى مستويات الجودة لتصبح واحدة من كبرى شركات التوريدات الغذائية في المنطقة.
+                        </p>
+                        <p class="about-text-ar" style="display: none;">
+                            حيث ينبع عملنا ومثابرتنا اليومية من إدراكنا أهمية دورنا كإحدى حلقات سلسلة توريد الخضار والفاكهة في المملكة الأردنية الهاشمية ومنطقة الشرق الأوسط، لذا تجدونا دائماً مواظبون على الحفاظ على جودة منتجنا من خلال الاهتمام الحثيث بتنقية الشكل الجذاب للعين والعناية الفائقة بالتعبئة والتخزين.
+                        </p>
+                        <p class="about-text-ar" style="display: none;">
+                            إضافة إلى ذلك تتميز شركتنا بفريق عمل يضم كفاءات مبهرة وخبرات طويلة مدعومة بدراسات مكثفة للأسواق التي تخدمها واحتياجاتها من الخضار والفاكهة وخدمات ما بعد البيع التي نقدمها مما يعزز موقعنا ومكانتنا لدى زبائننا وشركائنا في المملكة والدول الأخرى.
+                        </p>
+                        <p class="about-text-ar" style="display: none;">
+                            لائحة عملاء شركة حياة الأردن مدعاة للفخر لنا وتضم كبرى مراكز التسوق مثل السوبرماركت والهايبرماركت بالإضافة إلى المطاعم المتنوعة، الفنادق، المستشفيات، المراكز والدوائر الحكومية وغيرها والتي تتعامل معنا منذ سنوات حرصاً منها على تقديم كل ما يخدم مصلحة وصحة المستهلك.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="stat-box text-center p-4 bg-white rounded-4 shadow-sm h-100">
+                        <h3 class="text-success fw-bold mb-2">1997</h3>
+                        <small class="text-muted" data-en="Established" data-ar="التأسيس">Established</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-box text-center p-4 bg-white rounded-4 shadow-sm h-100">
+                        <h3 class="text-success fw-bold mb-2">25+</h3>
+                        <small class="text-muted" data-en="Years Experience" data-ar="سنوات خبرة">Years Experience</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-box text-center p-4 bg-white rounded-4 shadow-sm h-100">
+                        <h3 class="text-success fw-bold mb-2">1000+</h3>
+                        <small class="text-muted" data-en="Customers" data-ar="عميل">Customers</small>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-box text-center p-4 bg-white rounded-4 shadow-sm h-100">
+                        <h3 class="text-success fw-bold mb-2">100%</h3>
+                        <small class="text-muted" data-en="Quality" data-ar="جودة">Quality</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Journey -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-success-soft mb-3" data-en="Our Process" data-ar="عمليتنا">Our Process</span>
+                <h2 class="display-5 fw-bold" data-en="From Farm to Your Table" data-ar="من المزرعة إلى طاولتك">From Farm to Your Table</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="process-card text-center p-4 bg-light rounded-4 h-100">
+                        <div class="process-icon mx-auto mb-4">
+                            <i class="fas fa-seedling fa-3x text-success"></i>
+                        </div>
+                        <h5 class="mb-3" data-en="Organic Farming" data-ar="الزراعة العضوية">Organic Farming</h5>
+                        <p class="text-muted small" data-en="Sustainable farming practices with natural methods" data-ar="ممارسات زراعية مستدامة بطرق طبيعية">Sustainable farming practices with natural methods</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="process-card text-center p-4 bg-light rounded-4 h-100">
+                        <div class="process-icon mx-auto mb-4">
+                            <i class="fas fa-hands-helping fa-3x text-success"></i>
+                        </div>
+                        <h5 class="mb-3" data-en="Quality Selection" data-ar="الاختيار الجيد">Quality Selection</h5>
+                        <p class="text-muted small" data-en="Hand-picked fresh produce at peak ripeness" data-ar="منتجات طازجة مختارة يدوياً في ذروة النضج">Hand-picked fresh produce at peak ripeness</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="process-card text-center p-4 bg-light rounded-4 h-100">
+                        <div class="process-icon mx-auto mb-4">
+                            <i class="fas fa-box fa-3x text-success"></i>
+                        </div>
+                        <h5 class="mb-3" data-en="Expert Packing" data-ar="التعبئة المحترفة">Expert Packing</h5>
+                        <p class="text-muted small" data-en="State-of-the-art packing and storage facilities" data-ar="مرافق تعبئة وتخزين حديثة">State-of-the-art packing and storage facilities</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="process-card text-center p-4 bg-light rounded-4 h-100">
+                        <div class="process-icon mx-auto mb-4">
+                            <i class="fas fa-truck fa-3x text-success"></i>
+                        </div>
+                        <h5 class="mb-3" data-en="Fast Delivery" data-ar="توصيل سريع">Fast Delivery</h5>
+                        <p class="text-muted small" data-en="Reliable delivery across Jordan and Middle East" data-ar="توصيل موثوق في الأردن والشرق الأوسط">Reliable delivery across Jordan and Middle East</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Export Types Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-success-soft mb-3" data-en="Export Solutions" data-ar="حلول التصدير">Export Solutions</span>
+                <h2 class="display-5 fw-bold mb-4" data-en="Our Delivery Methods" data-ar="طرق التوصيل">Our Delivery Methods</h2>
+                <p class="lead text-muted" data-en="We offer flexible shipping options to meet your needs" data-ar="نقدم خيارات شحن مرنة لتلبية احتياجاتك">We offer flexible shipping options to meet your needs</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Air Export -->
+                <div class="col-md-4">
+                    <div class="export-card bg-white rounded-4 shadow-sm h-100 p-5 text-center">
+                        <div class="export-icon mx-auto mb-4">
+                            <i class="fas fa-plane fa-4x text-primary"></i>
+                        </div>
+                        <h4 class="mb-3" data-en="Air Freight" data-ar="الشحن الجوي">Air Freight</h4>
+                        <p class="text-muted mb-4" data-en="Fast delivery for time-sensitive orders. Perfect for fresh produce reaching international destinations quickly." data-ar="توصيل سريع للطلبات الحساسة للوقت. مثالي للمنتجات الطازجة للوصول إلى الوجهات الدولية بسرعة.">
+                            Fast delivery for time-sensitive orders. Perfect for fresh produce reaching international destinations quickly.
+                        </p>
+                        <div class="export-features">
+                            <div class="feature-item mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span data-en="24-48 Hours Delivery" data-ar="التوصيل خلال ٢٤-٤٨ ساعة">24-48 Hours Delivery</span>
+                            </div>
+                            <div class="feature-item mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span data-en="Temperature Controlled" data-ar="درجة حرارة مراقبة">Temperature Controlled</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span data-en="Global Coverage" data-ar="تغطية عالمية">Global Coverage</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sea Export -->
+                <div class="col-md-4">
+                    <div class="export-card bg-success text-white rounded-4 shadow-lg h-100 p-5 text-center">
+                        <div class="export-icon mx-auto mb-4">
+                            <i class="fas fa-ship fa-4x"></i>
+                        </div>
+                        <h4 class="mb-3" data-en="Sea Freight" data-ar="الشحن البحري">Sea Freight</h4>
+                        <p class="mb-4 opacity-90" data-en="Cost-effective solution for bulk orders. Refrigerated containers ensure quality preservation during transit." data-ar="حل فعال من حيث التكلفة للطلبات الكبيرة. حاويات مبردة تضمن الحفاظ على الجودة أثناء النقل.">
+                            Cost-effective solution for bulk orders. Refrigerated containers ensure quality preservation during transit.
+                        </p>
+                        <div class="export-features">
+                            <div class="feature-item mb-3">
+                                <i class="fas fa-check-circle me-2"></i>
+                                <span data-en="Large Volume Capacity" data-ar="سعة كبيرة">Large Volume Capacity</span>
+                            </div>
+                            <div class="feature-item mb-3">
+                                <i class="fas fa-check-circle me-2"></i>
+                                <span data-en="Reefer Containers" data-ar="حاويات مبردة">Reefer Containers</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle me-2"></i>
+                                <span data-en="Cost Efficient" data-ar="فعال من حيث التكلفة">Cost Efficient</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Land Export -->
+                <div class="col-md-4">
+                    <div class="export-card bg-white rounded-4 shadow-sm h-100 p-5 text-center">
+                        <div class="export-icon mx-auto mb-4">
+                            <i class="fas fa-truck fa-4x text-warning"></i>
+                        </div>
+                        <h4 class="mb-3" data-en="Land Transport" data-ar="النقل البري">Land Transport</h4>
+                        <p class="text-muted mb-4" data-en="Direct delivery to neighboring countries. Refrigerated trucks maintain optimal freshness throughout the journey." data-ar="توصيل مباشر إلى الدول المجاورة. الشاحنات المبردة تحافظ على النضارة المثلى طوال الرحلة.">
+                            Direct delivery to neighboring countries. Refrigerated trucks maintain optimal freshness throughout the journey.
+                        </p>
+                        <div class="export-features">
+                            <div class="feature-item mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span data-en="Regional Coverage" data-ar="تغطية إقليمية">Regional Coverage</span>
+                            </div>
+                            <div class="feature-item mb-3">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span data-en="Flexible Schedule" data-ar="جدول مرن">Flexible Schedule</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle text-success me-2"></i>
+                                <span data-en="Door-to-Door Service" data-ar="خدمة من الباب للباب">Door-to-Door Service</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-success-soft mb-3" data-en="Our Mission" data-ar="مهمتنا">Our Mission</span>
+                <h2 class="display-5 fw-bold mb-4" data-en="Our Commitment to Excellence" data-ar="التزامنا بالتميز">Our Commitment to Excellence</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="mission-card bg-light p-5 rounded-4 shadow-sm h-100">
+                        <div class="mission-icon mb-4">
+                            <i class="fas fa-bullseye fa-3x text-success"></i>
+                        </div>
+                        <h4 class="mb-4" data-en="Our Mission" data-ar="مهمتنا">Our Mission</h4>
+                        <ul class="mission-list">
+                            <li class="mission-item-en">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                Provide the best and finest grades of fruits and vegetables
+                            </li>
+                            <li class="mission-item-en">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                Ensure food safety and quality of service
+                            </li>
+                            <li class="mission-item-en">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                Find the best fresh fruits and vegetables available in season with optimal nutritional value
+                            </li>
+                            <li class="mission-item-en">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                Support local products and farms with appropriate consultation to improve crop quality
+                            </li>
+                            <li class="mission-item-en">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                Establish strategic partnerships with farms from the Middle East and international markets
+                            </li>
+                            <li class="mission-item-en">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                Maintain continuous quality assurance and search for suitable alternatives
+                            </li>
+                            
+                            <!-- Arabic Items -->
+                            <li class="mission-item-ar" style="display: none;">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                تقديم أفضل وأجود أنواع الخضار والفواكه
+                            </li>
+                            <li class="mission-item-ar" style="display: none;">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                سلامة الغذاء وجودة الخدمات
+                            </li>
+                            <li class="mission-item-ar" style="display: none;">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                العثور على أفضل أنواع الفواكه والخضار الطازجة المتاحة في موسمها بالإضافة إلى قيمتها الغذائية ونضارتها
+                            </li>
+                            <li class="mission-item-ar" style="display: none;">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                دعم المنتجات والمزارع المحلية وتقديم الاستشارات المناسبة لتطوير ورفع مستوى جودة المحصول
+                            </li>
+                            <li class="mission-item-ar" style="display: none;">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                إيجاد وخلق شراكات استراتيجية مع مزارع من الشرق الأوسط والأسواق الدولية
+                            </li>
+                            <li class="mission-item-ar" style="display: none;">
+                                <i class="fas fa-check-circle text-success me-3"></i>
+                                الحصول على الكميات المتوافرة والبحث الدائم عن البدائل المناسبة لضمان مستوى الجودة
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="value-card bg-success text-white p-4 rounded-4 shadow-sm">
+                                <div class="d-flex align-items-center">
+                                    <div class="value-icon me-4">
+                                        <i class="fas fa-award fa-3x"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-2" data-en="Quality First" data-ar="الجودة أولاً">Quality First</h5>
+                                        <p class="mb-0 small" data-en="Uncompromising commitment to excellence" data-ar="التزام لا هوادة فيه بالتميز">Uncompromising commitment to excellence</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="value-card bg-white p-4 rounded-4 shadow-sm border">
+                                <div class="d-flex align-items-center">
+                                    <div class="value-icon me-4">
+                                        <i class="fas fa-leaf fa-3x text-success"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-2" data-en="Sustainability" data-ar="الاستدامة">Sustainability</h5>
+                                        <p class="mb-0 small text-muted" data-en="Supporting local farms and environment" data-ar="دعم المزارع المحلية والبيئة">Supporting local farms and environment</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="value-card bg-white p-4 rounded-4 shadow-sm border">
+                                <div class="d-flex align-items-center">
+                                    <div class="value-icon me-4">
+                                        <i class="fas fa-handshake fa-3x text-success"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-2" data-en="Partnership" data-ar="الشراكة">Partnership</h5>
+                                        <p class="mb-0 small text-muted" data-en="Building long-term trusted relationships" data-ar="بناء علاقات موثوقة طويلة الأمد">Building long-term trusted relationships</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="value-card bg-white p-4 rounded-4 shadow-sm border">
+                                <div class="d-flex align-items-center">
+                                    <div class="value-icon me-4">
+                                        <i class="fas fa-shield-alt fa-3x text-success"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="mb-2" data-en="Food Safety" data-ar="سلامة الغذاء">Food Safety</h5>
+                                        <p class="mb-0 small text-muted" data-en="Global GAP certified operations" data-ar="عمليات معتمدة من جلوبال جاب">Global GAP certified operations</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-success-soft mb-3" data-en="Our Products" data-ar="منتجاتنا">Our Products</span>
+                <h2 class="display-5 fw-bold" data-en="Fresh Fruits & Vegetables" data-ar="فواكه وخضروات طازجة">Fresh Fruits & Vegetables</h2>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-card">
+                        <span class="product-badge">Fresh</span>
+                        <div class="product-img">
+                            <img src="https://images.unsplash.com/photo-1546470427-f5c9d8a6e1b5?w=400&q=80" alt="Tomatoes">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-2" data-en="Fresh Tomatoes" data-ar="طماطم طازجة">Fresh Tomatoes</h5>
+                            <p class="text-muted small" data-en="Vine-ripened, perfect for all dishes" data-ar="ناضجة على الكرمة، مثالية لجميع الأطباق">Vine-ripened, perfect for all dishes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-card">
+                        <span class="product-badge">Organic</span>
+                        <div class="product-img">
+                            <img src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?w=400&q=80" alt="Lettuce">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-2" data-en="Crisp Lettuce" data-ar="خس مقرمش">Crisp Lettuce</h5>
+                            <p class="text-muted small" data-en="Fresh green leaves, nutrient-rich" data-ar="أوراق خضراء طازجة، غنية بالمغذيات">Fresh green leaves, nutrient-rich</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-card">
+                        <span class="product-badge">Premium</span>
+                        <div class="product-img">
+                            <img src="https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=400&q=80" alt="Peppers">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-2" data-en="Bell Peppers" data-ar="فلفل ملون">Bell Peppers</h5>
+                            <p class="text-muted small" data-en="Colorful, sweet, and crunchy" data-ar="ملون، حلو، ومقرمش">Colorful, sweet, and crunchy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="product-card">
+                        <span class="product-badge">Local</span>
+                        <div class="product-img">
+                            <img src="https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=400&q=80" alt="Carrots">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="mb-2" data-en="Sweet Carrots" data-ar="جزر حلو">Sweet Carrots</h5>
+                            <p class="text-muted small" data-en="Naturally sweet and crunchy" data-ar="حلو ومقرمش بشكل طبيعي">Naturally sweet and crunchy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-success-soft mb-3" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</span>
+                <h2 class="display-5 fw-bold" data-en="Get In Touch" data-ar="تواصل معنا">Get In Touch</h2>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-card text-center p-4 bg-light rounded-4 shadow-sm h-100">
+                        <div class="contact-icon mx-auto mb-3">
+                            <i class="fas fa-map-marker-alt fa-2x text-success"></i>
+                        </div>
+                        <h5 class="mb-3" data-en="Location" data-ar="الموقع">Location</h5>
+                        <p class="text-muted" data-en="Sulaiman Mohammad Street, Amman, Jordan" data-ar="شارع سليمان محمد، عمان، الأردن">Sulaiman Mohammad Street<br>Amman, Jordan</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-card text-center p-4 bg-light rounded-4 shadow-sm h-100">
+                        <div class="contact-icon mx-auto mb-3">
+                            <i class="fas fa-phone fa-2x text-success"></i>
+                        </div>
+                        <h5 class="mb-3" data-en="Phone" data-ar="الهاتف">Phone</h5>
+                        <p class="text-muted">
+                            <a href="tel:+96262020611" class="text-decoration-none text-muted" dir="ltr">+962 6 202 0611</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-card text-center p-4 bg-light rounded-4 shadow-sm h-100">
+                        <div class="contact-icon mx-auto mb-3">
+                            <i class="fas fa-envelope fa-2x text-success"></i>
+                        </div>
+                        <h5 class="mb-3" data-en="Email" data-ar="البريد الإلكتروني">Email</h5>
+                        <p class="text-muted">
+                            <a href="mailto:hayat.jordan@hdl-jo.com" class="text-decoration-none text-muted">hayat.jordan@hdl-jo.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="contact-card text-center p-4 bg-light rounded-4 shadow-sm h-100">
+                        <div class="contact-icon mx-auto mb-3">
+                            <i class="fas fa-clock fa-2x text-success"></i>
+                        </div>
+                        <h5 class="mb-3" data-en="Hours" data-ar="ساعات العمل">Hours</h5>
+                        <p class="text-muted" data-en="Sun - Thu: 8AM - 5PM" data-ar="الأحد - الخميس: ٨ص - ٥م">Sun - Thu<br>8AM - 5PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Map -->
+            <div class="mt-5">
+                <div class="ratio ratio-21x9 rounded-4 overflow-hidden shadow">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1381.719904866754!2d35.9564773306163!3d31.86155133523627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b590c83ae2187%3A0x273d7347a9a1ffe2!2z2LTYsdmD2Kkg2K_YsdioINmE2YTYqtis2KfYsdipINmI2KfZhNiq2KjYsdmK2K8!5e1!3m2!1sar!2sjo!4v1768330663295!5m2!1sar!2sjo" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="logo-icon me-3">
+                            <img src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6966813165a5f8d2534d93bc/ae85427ad_logoVC.jpeg" alt="Hayat Jordan Logo" class="logo-img">
+                        </div>
+                        <div>
+                            <h4 class="mb-0" data-en="Hayat Jordan" data-ar="حياة الأردن">Hayat Jordan</h4>
+                            <small class="text-muted" data-en="Fruits & Vegetables" data-ar="لتوريد الفواكه والخضراوات">Fruits & Vegetables Supplies</small>
+                        </div>
+                    </div>
+                    <p class="text-muted" data-en="Delivering quality since 1997. Your trusted partner for fresh fruits and vegetables." data-ar="نقدم الجودة منذ ١٩٩٧. شريكك الموثوق للفواكه والخضروات الطازجة.">Delivering quality since 1997. Your trusted partner for fresh fruits and vegetables.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-whatsapp fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h6 class="mb-3" data-en="Company" data-ar="الشركة">Company</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#about" class="text-muted" data-en="About" data-ar="من نحن">About</a></li>
+                        <li><a href="#mission" class="text-muted" data-en="Mission" data-ar="مهمتنا">Mission</a></li>
+                        <li><a href="#products" class="text-muted" data-en="Products" data-ar="منتجاتنا">Products</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h6 class="mb-3" data-en="Contact" data-ar="تواصل">Contact</h6>
+                    <ul class="list-unstyled">
+                        <li class="text-muted mb-2"><i class="fas fa-phone me-2" dir="ltr"></i><span dir="ltr">+962 6 202 0611</span></li>
+                        <li class="text-muted mb-2"><i class="fas fa-envelope me-2"></i>hayat.jordan@hdl-jo.com</li>
+                        <li class="text-muted"><i class="fas fa-map-marker-alt me-2"></i><span data-en="Amman, Jordan" data-ar="عمان، الأردن">Amman, Jordan</span></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h6 class="mb-3" data-en="Certifications" data-ar="الشهادات">Certifications</h6>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-warning text-dark">
+                            <i class="fas fa-certificate me-1"></i>Global GAP
+                        </span>
+                        <span class="badge bg-success">
+                            <i class="fas fa-leaf me-1"></i>
+                            <span data-en="Organic" data-ar="عضوي">Organic</span>
+                        </span>
+                        <span class="badge bg-info">
+                            <i class="fas fa-shield-alt me-1"></i>ISO 22000
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="text-center">
+                <p class="mb-0 text-muted">
+                    &copy; 2026 
+                    <span data-en="Hayat Jordan Fruits & Vegetables Supplies" data-ar="شركة حياة الأردن لتوريد الفواكه والخضراوات">Hayat Jordan Fruits & Vegetables Supplies</span>. 
+                    <span data-en="All rights reserved." data-ar="جميع الحقوق محفوظة.">All rights reserved.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
